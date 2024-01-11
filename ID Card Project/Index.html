@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Final Project</title>
+
+
+</head>
+
+<body>
+<h1>Let's Create and ID Card!</h1>
+<form id="form">
+    <label for="firstName">First Name:</label> <br>
+    <input type="text" id="firstName" placeholder="John" name="firstName"> <br>
+
+    <label for="lastName">Last Name:</label> <br>
+    <input type="text" id="lastName" placeholder="Doe" name="lastName"> <br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" placeholder="18" name="age"> <br>
+
+    <label for="phoneNumber">Phone Number:</label> <br>
+    <input type="tel" id="phoneNumber" placeholder="555-555-5555" name="phoneNumber"> <br>
+
+    <label for="address">Address:</label> <br>
+    <input type="text" id="address" placeholder="123 main st. new york, new york 55555" name="address"> <br>
+</form>
+
+<button onclick="idCard()">Get I.D. Card</button>
+
+
+<div id="idCard">
+
+<img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+
+<p id="postFullName"></p> <br>
+
+<p id="postAge"></p> 
+
+<p id="postPhoneNumber"></p> 
+
+<p id="postAddress"></p> 
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
